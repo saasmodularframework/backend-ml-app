@@ -55,7 +55,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = "mysite.wsgi.application"
-
+X_FRAME_OPTIONS = 'ALLOW-FROM https://govsim.pythonanywhere.com'
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
